@@ -1,0 +1,12 @@
+
+.label {
+
+  $width: 150px;
+
+  width: $width;
+  min-width: $width;
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
